@@ -14,3 +14,6 @@ This project contains clean architecture for  android sensor code and is created
     }
 }
  ```
+
+## Add more sensors 
+This project allows you to add more sensors. The sensors that are already included are: Light. You can use your own custom sensor by adding a new data class to **Sensors.kt** and then interacting with a singleton SensorModule in **SensorModule.kt**. Finally, you can view the sensor data by using functions inside the View.
