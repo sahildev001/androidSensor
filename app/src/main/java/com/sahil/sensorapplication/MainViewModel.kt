@@ -14,6 +14,7 @@ import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
 import androidx.savedstate.SavedStateRegistryOwner
 
+/* Creating a view model factory. */
 class MainViewModel(
     private val lightSensor:MeasurableSensor,
     private val savedStateHandle: SavedStateHandle

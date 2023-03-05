@@ -18,6 +18,8 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import com.sahil.sensorapplication.ui.theme.SensorApplicationTheme
 
 
+/* We're using the `viewModel` function to create a `MainViewModel` instance, and then we're using the
+`isDark` property of that instance to determine the background color of the screen */
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

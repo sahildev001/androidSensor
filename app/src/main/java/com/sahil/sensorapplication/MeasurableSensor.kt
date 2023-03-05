@@ -1,5 +1,6 @@
 package com.sahil.sensorapplication
 
+/* It's an abstract class that has a sensor type and a listner for when the sensor value changes */
 abstract  class MeasurableSensor(
     protected val sensorType:Int
 ) {

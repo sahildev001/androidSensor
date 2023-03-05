@@ -6,6 +6,9 @@ import android.hardware.SensorEvent
 import android.hardware.SensorEventListener
 import android.hardware.SensorManager
 
+/* > This class is an abstract class that implements the `MeasurableSensor` interface and the
+`SensorEventListener` interface. It also has a constructor that takes in a `Context`, a `String` and
+an `Int` */
 abstract  class AndroidSensor(
     private val context: Context,
     private val sensorFeature:String,
